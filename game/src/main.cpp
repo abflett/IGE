@@ -3,13 +3,14 @@
 #include "application.h"
 #include "engine.h"
 
-#include <SDL3/SDL.h>
+// #include <SDL3/SDL.h>
 
 // #include <SDL3/SDL.h>
 
 int main(int argc, char *argv[])
 {
-    SDL_Init(SDL_INIT_EVERYTHING);
+    engine eng;
+    // SDL_Init(SDL_INIT_EVERYTHING);
     std::cout << "Starting game."
               << "\n";
     application app;
