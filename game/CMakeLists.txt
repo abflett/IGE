@@ -7,5 +7,5 @@ target_include_directories(game
 )
 
 target_link_libraries(game
-    PRIVATE engine
+    PRIVATE runtime
 )
