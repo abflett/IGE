@@ -1,3 +1,6 @@
+set(SDL_TEST OFF)
+set(BUILD_SHARED_LIBS OFF)
+
 add_subdirectory(SDL)
 
 add_library(external INTERFACE)
